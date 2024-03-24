@@ -54,8 +54,8 @@ jobs:
       - name: Commit nightly webFile
         run: |
           git checkout -b nightly
-          git config --global user.email "zklcdc@qq.com"
-          git config --global user.name "Harry-zklcdc"
+          git config --global user.email "111"
+          git config --global user.name "111"
           git add web/*
           git commit -m "[Upgrade] 🚀 Upload nightly webFile"
           git tag -a nightly -m "Released on $(date +%Y-%m-%d)"

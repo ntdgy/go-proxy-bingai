@@ -33,12 +33,11 @@ jobs:
 
       - name: Commit latest webFile
         run: |
-          git config --global user.email "zklcdc@qq.com"
-          git config --global user.name "Harry-zklcdc"
+          git config --global user.email "111@qq.com"
+          git config --global user.name "111"
           git add web/*
           git commit -m "[Upgrade] 🚀 Upload latest webFile"
           git push origin HEAD:master
-          git push origin HEAD:dev
 
       - name: Build binary
         run: |
