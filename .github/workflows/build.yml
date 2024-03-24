@@ -33,6 +33,7 @@ jobs:
 
       - name: Commit latest webFile
         run: |
+          git pull
           git config --global user.email "111@qq.com"
           git config --global user.name "111"
           git add web/*
