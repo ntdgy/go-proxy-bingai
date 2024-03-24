@@ -8,7 +8,7 @@ jobs:
   build:
     name: build
     runs-on: ubuntu-latest
-    if: github.repository == 'Harry-zklcdc/go-proxy-bingai'
+    if: github.repository == 'ntdgy/go-proxy-bingai'
     steps:
       - uses: actions/checkout@v3
         with:
